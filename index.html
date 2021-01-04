@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>The Icon Republic</title>
+  <meta name="description" content="ICON is a Blockchain Protocol for Decentralized Applications and Interoperability.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="icon" type="image/png" href="/Images-f/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/Images-f/favicon-16x16.png" sizes="16x16" />
+  <link rel="stylesheet" href="navstyles.css">
+</head>
+
+<body class="preload">
+  <script>
+    document.body.classList.remove('.preload')
+  </script>
+
+ <!--Header-->
+ <header>
+   <nav class="nav">
+     <div class="menu-toggle display-none">
+       <div class="menu_btn">
+         <div class="menu-btn__burger">
+         </div>
+       </div>
+     </div>
+     <div class="logo-div">
+       <div id='logo'>
+         <a class="main-logo" href="index.html"><img alt="icon-logo" src="Images-f/logoblacknav.svg"></a>
+         <div class="logomove">
+           <a href="/index.html"><img alt='icon-small-logo' src="/Images-f/rotate-nav.svg"></a>
+         </div>
+       </div>
+     </div>
+     <ul class="nav-list">
+       <li class="nav-item" id="sub">
+         <label class="nav-link" for="a">Icon Republic <i class="fas fa-angle-down"></i>
+         </label>
+         <input class="display-none" type="checkbox" id="a" />
+         <ul class='submenu trans'>
+           <li class='drop-item'><a href="/network.html" class='nav-link' href="#">ICON Network</a></li>
+           <li class='drop-item'><a href="/whatIsIcx.html" class='nav-link' href="#">What is ICX?</a></li>
+         </ul>
+       </li>
+       <li class="nav-item" id="sub">
+         <label class="nav-link" for="b">Governance <i class="fas fa-angle-down"></i>
+         </label>
+         <input class="display-none" type="checkbox" id="b" />
+         <ul class='submenu trans'>
+           <li class='drop-item'><a href="/governance.html" class='nav-link' href="#">ICONists</a></li>
+           <li class='drop-item'><a href="/governance.html#prep" class='nav-link' href="#">P-Reps</a></li>
+           <li class='drop-item'><a href="/governance.html#iiss" class='nav-link' href="#">ICON's IISS</a></li>
+         </ul>
+       </li>
+       <li class="nav-item">
+         <a href="applications.html" class="nav-link">Apps & Projects</a>
+       </li>
+       <li class="nav-item" id="sub">
+         <label class="nav-link" for="c">Build on ICON <i class="fas fa-angle-down"></i>
+         </label>
+         <input class="display-none" type="checkbox" id="c" />
+         <ul class='submenu trans'>
+           <li class='drop-item'><a href="/developer.html" class='nav-link' href="#">Developers</a></li>
+           <li class='drop-item'><a href="/entrepreneurs.html" class='nav-link' href="#">Entrepreneurs</a></li>
+         </ul>
+       </li>
+       <li class="nav-item">
+         <a href="guides.html" class="nav-link">Guides & Resources</a>
+       </li>
+       <li class="nav-item">
+         <a href="/community.html" class="nav-link">Community</a>
+       </li>
+     </ul>
+   </nav>
+ </header>
+ <!--Header ends-->
+
+  <!--Hero-->
+  <section class="hero-bg">
+    <div class="container">
+       <div class="hero-flex">
+         <div class="hero-text">
+           <p class="hero-text1" animation-fadeUp'>ICON</p>
+           <p class='hero-text2  animation-fadeUp'>ICON is a Blockchain Protocol for Decentralized Applications and
+             Interoperability.</p>
+           <p class='hero-text3'> Join the ICON network that includes the Seoul Government, Samsung, LINE and the
+             world’s
+             largest corporations.
+           </p>
+           <div class="btn-flex animation-fadeUp" id="hero-btn">
+             <a onclick="toggle();autoload();" href="#" class='button-blue mobile-full-blue' id="watch-btn">Watch Video</a>
+             <a class='button-white mobile-full-white ' id="button-white-hero" href="/network"> Learn More</a>
+           </div>
+         </div>
+
+         <div class="hero-img">
+           <img alt="hero" class="heromain" src="/Images-f/ICON logo.svg">
+          </div>
+    </div>
+     
+        
+     
+      
+
+    </div>
+
+
+  </section>
+
+
+  <!-- Section: video -->
+  <section class='video'>
+    <div class="trailer">
+      <video controls="true" src="/ICON Intro.mp4"></video>
+      <i class="close fas fa-window-close" onclick="toggle();"></i>
+    </div>
+  </section>
+  <!--Section: video  Ends-->
+
+  <!--Section: Some Key Icon UseCases-->
+  <section class="key-section">
+    <div class="home-deco-1"></div>
+    <div class="deco-rect">
+      <div class="home-deco-2">
+        <div class="home-deco-3"></div>
+      </div>
+    </div>
+    <div class="container light-bg">
+      <div class="space"></div>
+      <h2>Some Key ICON Usecases</h2>
+      <div class="multi-flex-container">
+        <div class="use-row">
+          <a rel="noopener" href="https://zzeung.id/" target="_blank">
+            <div class="use-item">
+              <img alt="zzeung" class='use-img' src="/Images-f/1.use-zzeung.svg">
+              <h4>Zzeung</h4>
+              <p>A decentralized ID app that utilizes the ICON protocol built by members of the MyID Alliance that
+                includes
+                industry leaders.</p>
+            </div>
+          </a>
+          <a rel="noopener" href="https://www.visitme.app/" target="_blank">
+            <div class="use-item">
+              <img alt="visitme" class='use-img' id="visitme" src="Images-f/1.use-visit.svg">
+              <h4>VisitMe</h4>
+              <p>A visitor management solution. Used by more than 200,000 users, including major hotels, cafes and
+                public sites.</p>
+            </div>
+          </a>
+
+          <a rel="noopener" href="https://www.broof.io/" target="_blank">
+            <div class="use-item">
+              <img alt="broof" class='use-img' id="broof" src="Images-f/1.use-broof.svg">
+              <h4>Broof</h4>
+              <p>A certificate issuance app used by major universities and corporations, including Korea’s largest job
+                marketplace, Saramin.</p>
+            </div>
+          </a>
+
+        </div>
+        <div class="use-row">
+          <a rel="noopener" href="https://balanced.network/" target="_blank">
+            <div class="use-item">
+              <img alt="balanced" class='use-img' src="Images-f/1.use-balanced.svg">
+              <h4>Balanced</h4>
+              <p>A DeFi DAO on the ICON Network that creates tokens pegged to real-world assets such as stablecoins.</p>
+            </div>
+          </a>
+
+          <a rel="noopener" href="https://omm.finance/" target="_blank">
+            <div class="use-item">
+              <img alt="omm" class='use-img ' id="omm" src="Images-f/1.use-omm.svg">
+              <h4>OMM</h4>
+              <p>A DeFi money market where anyone can lend and borrow assets, earn interest, and own a share of the
+                protocol. </p>
+            </div>
+          </a>
+
+          <a rel="noopener" href="https://www.icon-fi.com/" target="_blank">
+            <div class="use-item">
+              <img alt="iconfi" class='use-img' src="Images-f/1.use-fi.svg">
+              <h4>ICONFi</h4>
+              <p>A crypto staking and earn service for the ICON community.</p>
+            </div>
+          </a>
+
+        </div>
+        <div class="use-row">
+          <a rel="noopener" href="https://medium.com/helloiconworld/bridge-connecting-blockchain-based-applications-to-the-masses-1152798d7afe/"
+            target="_blank">
+            <div class="use-item">
+              <img alt="bridge" class='use-img' src="Images-f/Icon Republic (1) 2/image 72.svg">
+              <h4>Bridge</h4>
+              <p>A payment service that lets people interact with ICON apps seamlessly using their email address and
+                fiat currency.</p>
+            </div>
+          </a>
+
+          <a rel="noopener" href="https://iconbet.io/" target="_blank">
+            <div class="use-item">
+              <img alt="iconbet" class='use-img' src="Images-f/1.use-iconbet.svg">
+              <h4>ICON Bet</h4>
+              <p>A gaming DAO built on the ICON protocol. Owned and managed by the players.</p>
+            </div>
+          </a>
+
+          <a rel="noopener" href="https://projectnebula.app/" target="_blank">
+            <div class="use-item">
+              <img alt="nebula" class='use-img' id='nebula' src="Images-f/1.use-nebula.svg">
+              <h4>Project Nebula</h4>
+              <p>An NFT game of interstellar exploration. Discover and own unique planets and artifacts in an
+                ever-expanding universe.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="btn-flex btn-center" id="index-learn">
+        <a class="button-white" href="/applications">Learn More</a>
+      </div>
+      <div class="space"></div>
+    </div>
+     
+
+    
+  </section>
+ 
+
+  <!--Section: Staking Container-->
+  <section>
+    <div class="container double-flex light-bg">
+        <div class="double-flex-item">
+          <h2 class='left'>ICON Staking</h2>
+          <p>ICON currently boasts one of the highest rewards for blockchain staking.</p>
+          <div class='btn-flex center-mobile' id="btn-left">
+            <a class='button-white gov-btn' href="/governance">Learn about Governance</a>
+          </div>
+        </div>
+        <div class="double-flex-item">
+          <div class="staking-box">
+            <p>The more you stake, the more you earn. </p>
+            <hr />
+            <h3>12.2% per 1 ICX staked</h3>
+            <p>annual reward rate</p>
+          </div>
+           <div class="staking-info">
+             <p>It is important to delegate to P-Reps that add value to the ICON ecosystem to ensure the growth of the
+               network and your staked ICX.</p>
+           </div>
+          </div>        
+        </div>
+      </div>
+  </section>
+
+  <!--Section:Ready to explore -->
+  <section>
+    <div class="container ">
+       <div class="explore-deco1"></div>
+       <div class="explore-deco2"></div>
+       <div class="dots-deco"></div>
+      <h2>Ready to explore ICON?</h2>
+      <div class="flex-container ">
+        <div class="explore-item">
+          <img alt="explore-icon" class='icon' src='/Images-f/1.explore1.svg'>
+          <h4>Individuals & Investors</h4>
+          <p>Learn about the ICON Republic and its cryptocurrency: ICX.</p>
+          <div class='btn-flex btn-center'> <a class='button-white explore-btn' href="/network">Learn
+              More</a></div>
+        </div>
+        <div class="explore-item">
+          <img alt="explore-icon" class='icon' src='/Images-f/1.explore2.svg'>
+          <h4>Developers</h4>
+          <p>Build on one of the world’s fastest growing decentralized networks.</p>
+          <div class='btn-flex btn-center '> <a class='button-white explore-btn' href="/developer">Learn
+              More</a></div>
+        </div>
+        <div class="explore-item">
+          <img alt="explore-icon" class='icon' src='/Images-f/1.explore3.svg'>
+          <h4>Entrepreneurs</h4>
+          <p>Find out about launching your idea on ICON. </p>
+             <div class='btn-flex btn-center'> <a class='button-white ' href="/entrepreneurs">Learn More</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!--Section:Latest-->
+  <section>
+     
+    <div class="container">
+     <h2>Latest News</h2>
+        <div id="medium-widget"></div>
+    </div>
+  </section>
+<!--Footer-->
+<footer>
+  <div>
+    <div class='footer-wrapper1'>
+      <img class='icon foot-icon' alt="footer-logo" src="/Images-f/Icon.svg">
+      <h2>Join our Community</h2>
+      <p>Have questions about ICON? Join our community to ask questions or check out our updates!
+      </p>
+      <a href="/community.html" class='button-blue footer-btn'>Visit Our
+        Community</a>
+    </div>
+    </div>
+    <div class="footer-wrapper2 container">
+      
+      <div class="social">
+        <div class="foot-logo">
+          <img class='footer-logo-main' alt="footer-logo" src='/Images-f/Logo black.svg'>
+          <img class='footer-logo-hover' alt="footer-logo" src='/Images-f/footerlogowhite.svg'>
+        </div>
+
+        <div class='social-buttons'>
+          <a rel="noopener" href="https://twitter.com/helloiconworld?lang=en" target="_blank"><i
+              class="fab fa-twitter"></i></a>
+          <a rel="noopener" href="https://www.facebook.com/helloicon/" target="_blank"><i
+              class="fab fa-facebook-f"></i></a>
+          <a rel="noopener" href="https://github.com/icon-project" target="_blank"><i class="fab fa-github"></i></a>
+          <a rel="noopener" href="https://tr.linkedin.com/company/helloiconworld" target="_blank"><i
+              class="fab fa-linkedin"></i></a>
+          <a rel="noopener" href="https://www.youtube.com/channel/UC5SrWL7CKY09cVtuDxHtizw" target="_blank"><i
+              class="fab fa-youtube"></i></a>
+        </div>
+        
+        <a href="#">Terms</a></br>
+        <a href="#">Privacy</a>
+      </div>
+      <div>
+             <div class="ft-linkbox">
+               <div class="ftlink-item">
+                 <a href="/index.html" id='link-head'>Home</a>
+               </div>
+               <div class="ftlink-item">
+                 <a href="network.html" id='link-head'>ICON Republic</a>
+                 <a href="network.html">ICON Network</a>
+                 <a href="/whatIsIcx.html">What is ICX?</a>
+               </div>
+               <div class="ftlink-item">
+                 <a href="/governance.html" id='link-head'>Governance</a>
+                 <a href="/governance.html#iconist">Iconists</a>
+                 <a href="/governance.html#prep">P-Reps</a>
+                 <a href="/governance.html#iiss">ICON's IISS</a>
+               </div>
+               <div class="ftlink-item">
+                 <a href="applications.html" id='link-head'>Apps & Projects</a>
+               </div>
+               <div class="ftlink-item">
+                 <a href="developer.html" id='link-head'>Build on ICON</a>
+                 <a href="/developer.html">Developers</a>
+                 <a href="/entrepreneurs.html">Entrepreneurs</a>
+               </div>
+               <div class="ftlink-item">
+                 <a href="/guides.html" id='link-head'>Guides & Resources</a>
+               </div>
+               <div class="ftlink-item">
+                 <a href="/community.html" id='link-head'>Community</a>
+               </div>
+             </div>
+      </div>
+ 
+
+    </div>
+
+
+</footer>
+<!--Footer Ends-->
+  <script defer type="text/javascript">
+    let video = document.querySelector("video")
+
+    function toggle() {
+      let trailer = document.querySelector(".trailer")
+      video.classList.toggle("active")
+      trailer.classList.toggle("active")
+      video.pause();
+      video.currentTime = 0;
+    }
+
+    function autoload() {
+      video.autoplay = true;
+      video.load()
+    }
+  </script>
+  <script src="index.js" async></script>
+  <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
+  <script src="./medium.js"></script>
+  
+</body>
+
+</html>
